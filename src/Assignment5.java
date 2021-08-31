@@ -42,7 +42,7 @@ public class Assignment5 {
 		momAccount.withdraw(input.nextDouble());
 
 		System.out.println("Inform the value to be transferred from daddy's to mom's account");
-		daddyAccount.transfer(input.nextDouble(), momAccount);
+		// daddyAccount.transfer(input.nextDouble(), momAccount);
 
 		System.out.println("Inform the value to be withdrawn from Nancy's account");
 		nancyAccount.withdraw(input.nextDouble());

@@ -13,7 +13,7 @@ import java.io.FileNotFoundException;
 
 
 /**
- * This program tests the BankAccount class and its subclasses.
+ * This program tests the BankAccount class and its subclass
  */
 public class Assignment5 {
 

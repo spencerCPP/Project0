@@ -25,7 +25,7 @@ public class Assignment5 {
         Scanner input = new Scanner(text);
 
 		// creating accounts
-		BankAccount daddyAccount = new SavingsAccount(0.005, 500);
+		// BankAccount daddyAccount = new SavingsAccount(0.005, 500);
 		CheckingAccount momAccount = new CheckingAccount(100);
 		CheckingAccount nancyAccount = new CheckingAccount(50);
 

@@ -13,7 +13,7 @@ import java.io.FileNotFoundException;
 
 
 /**
- * This program tests the BankAccount class and its subclass
+ * This program tests the BankAccount class and its subclasses.
  */
 public class Assignment5 {
 
@@ -25,7 +25,7 @@ public class Assignment5 {
         Scanner input = new Scanner(text);
 
 		// creating accounts
-		// BankAccount daddyAccount = new SavingsAccount(0.005, 500);
+		BankAccount daddyAccount = new SavingsAccount(0.005, 500);
 		CheckingAccount momAccount = new CheckingAccount(100);
 		CheckingAccount nancyAccount = new CheckingAccount(50);
 
@@ -42,7 +42,7 @@ public class Assignment5 {
 		momAccount.withdraw(input.nextDouble());
 
 		System.out.println("Inform the value to be transferred from daddy's to mom's account");
-		// daddyAccount.transfer(input.nextDouble(), momAccount);
+		daddyAccount.transfer(input.nextDouble(), momAccount);
 
 		System.out.println("Inform the value to be withdrawn from Nancy's account");
 		nancyAccount.withdraw(input.nextDouble());
